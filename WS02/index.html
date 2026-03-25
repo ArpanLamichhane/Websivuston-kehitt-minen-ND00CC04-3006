@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Arpan Lamichhane Ensimmäinen HTML Sivu</title>
+    <style>
+        body {
+            background-color: lightgray;
+            font-family: Arial, sans-serif;
+        }
+
+        p {
+            color: blue;
+            font-size: 1.1em;
+        }
+
+        h1 {
+            font-size: 2em;
+        }
+        .content-box {
+            padding: 20px;
+            margin: 15px 0;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"] {
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 style="color: red;">Tervetuloa Arpanin Sivuun</h1>
+
+    <p>Hei, olen Arpan ja opiskelen websivuston kehittämistä.</p>
+
+    <h2>Harrastukseni</h2>
+    <ul>
+        <li>Videopelit</li>
+        <li>Ruoanlaitto</li>
+        <li>Salilla käynti</li>
+    </ul>
+
+    <img src="path/to/imag_7463.jpg" alt="Kuva minusta">
+
+    <br><br>
+    <a href="https://wordsalad.online/">Lempi sivustoni</a>
+    <div class="content-box">
+        <h3>Lisätietoja</h3>
+        <p>Tämä on laatikko, jossa harjoitellaan padding- ja margin-ominaisuuksia.</p>
+    </div>
+
+    <h2>Kurssit</h2>
+    <table>
+        <tr>
+            <th>Kurssi</th>
+            <th>Tila</th>
+        </tr>
+        <tr>
+            <td>Web-sivuston kehittäminen</td>
+            <td>Käynnissä</td>
+        </tr>
+        <tr>
+            <td>Ohjelmoinnin perusteet</td>
+            <td>Käynnissä</td>
+        </tr>
+        <tr>
+            <td>Tietoverkot ja tietoliikenne</td>
+            <td>Suoritettu</td>
+        </tr>
+    </table>
+
+    <h2>Contact Me</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>

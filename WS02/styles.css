@@ -1,0 +1,13 @@
+/* External CSS */
+h2 {
+    color: darkblue;
+}
+
+ul li {
+    font-style: italic;
+}
+
+img {
+    width: 250px;
+    border-radius: 10px;
+}
